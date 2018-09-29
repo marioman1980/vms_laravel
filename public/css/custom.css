@@ -1,0 +1,134 @@
+/* Site wide styles */
+
+body {
+	padding-top: 60px;
+	font-family: 'Oswald', sans-serif;
+	color: #111
+}
+
+body, html {
+    height: 100%;
+}
+
+#page-container {
+	padding-left: 0;
+	padding-right: 0
+}
+
+p, strong {
+	font-size: 16px
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: white;
+	text-shadow: 2px 2px 8px black;	
+}
+.jumbotron h1 {
+	font-size: 3em
+}
+.jumbotron h2 {
+	font-size: 2em
+}
+.jumbotron .btn {
+	margin-top: 10px;
+	background-color: #333;
+	color: white;
+	padding: 12px;
+	font-size: 20px;
+	border-radius: 0;
+	border: none;
+}
+.jumbotron .btn:hover {
+	background-color: #555
+}		
+
+/* header */
+
+#logo {
+	float: left;
+	margin-right: 10px;
+ 	padding-top: 9px;
+	padding-bottom :9px
+}
+
+.header-align-bottom {
+	position: absolute;
+	bottom: 0;
+	right: 50px
+}
+
+#nav-links {
+	font-size: 1.1em
+}
+
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+/* Parallax */
+
+.parallax { 
+	/* The image used */
+	background: image-url("online_payment.jpg");
+
+	/* Set a specific height or change to 100% */
+	height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Privacy policy */
+
+#privacy-policy ul li {
+	font-size: 16px
+}
+#privacy-policy .pp-bold {
+	font-size: 18px; 
+	font-weight: bold
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+	border: 1px solid #bbb;
+	width: 100%;
+	margin-bottom: 15px;
+	-moz-box-sizing:    border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:         border-box;
+}
+
+input {
+  height: auto !important;
+}
+
