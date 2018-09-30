@@ -68,13 +68,19 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.1em
 }
 
+/*@media only screen and(min-width: 768px) {*/
+	footer {
+		position: absolute;
+		bottom: 0
+	}
+/*}*/
 
-footer a {
-  color: #555;
+footer a, li a {
+  color: #000;
 }
 
-footer a:hover {
-  color: #222;
+footer a:hover, li a:hover {
+  color: #888;
 }
 
 footer small {
